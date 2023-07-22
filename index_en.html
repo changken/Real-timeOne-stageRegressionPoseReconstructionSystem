@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-    <title>即時單階段迴歸姿態重塑系統</title>
+    <title>Real-time One-stage Regression Pose Reconstruction System</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.lp.css">
 	<link rel="stylesheet" type="text/css" href="css/landing-page.css">
@@ -27,22 +27,22 @@
                 </button>
 
                 <a class="navbar-brand topnav" href="https://myweb.ntut.edu.tw/~tjhsieh/">
-                ♪ 國立臺北科技大學 ♪ 資訊工程系 ♪ 計算機圖學實驗室 ♪</a>
+                ♪ National Taipei University of Technology ♪ Computer Science and Information Engineering ♪ CGL ♪</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#top">回頂端</a>
+                        <a href="#top">Top</a>
                     </li>
 					<li>
-                        <a href="#demo1">摘要</a>
+                        <a href="#demo1">Abstract</a>
                     </li>
 					<li>
-                        <a href="#demo2">系統概要與生成結果</a>
+                        <a href="#demo2">Method Overview</a>
                     </li>
                     <li>
-                        <a href="#demo3">簡介影片</a>
+                        <a href="#demo3">Introduction Video</a>
                     </li>
 					
                 </ul>
@@ -61,11 +61,11 @@
             <div class="row">
                 <div class="col-lg-12" style="height:300px;">
                     <div class="intro-message" style="position: relative;padding-top: 0%;padding-bottom: 70%;">
-                        <h1>即時單階段迴歸姿態重塑系統</h1>
+                        <h1>Real-time One-stage Regression Pose Reconstruction System</h1>
                         <ul class="list-inline intro-social-buttons">
                             <li>
                                 <a href="demo.html" class="btn btn-default btn-lg"> 
-                                    <span class="network-name" style="font-weight: 900;">進入系統</span>
+                                    <span class="network-name" style="font-weight: 900;">Enter</span>
                                 </a>
                             </li>
                         </ul>
@@ -88,18 +88,9 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-					<h2 class="section-heading">摘要</h2>
-					<p class="lead">本研究開發了一個即時單階段姿態重塑系統，可以使用單隻羅技網
-                        路攝影機或影片作為輸入，並控制塑模軟體 Blender 中虛擬角色的動作。
-                        它基於 ROMP 單階段、多分支的姿態重塑迴歸網路。本研究擴展了單
-                        人 ROMP Blender 虛擬人物操縱系統，讓其能一次控制 2~3 個虛擬人物。三
-                        維人體姿態與外觀估計領域著重於改進網路架構和資料集，但其缺乏在虛
-                        擬直播中的實際應用。此外，基於光學標記的動作捕捉系統需要高成本與
-                        10~15 分鐘才能完成設置。為了解決這個問題，本研究開發了一種基於深度
-                        學習的解決方案。本研究將應用於訪談型節目，在使用網路攝影機的情況
-                        下，即時性能是每秒 14~20 幀，而在使用影片的情況下，它則是每秒 12~17
-                        幀。本研究將動作捕捉系統的成本從 500 萬新台幣顯著降低到 1,000 新台
-                        幣，並將系統設置時間從 10~15 分鐘減少到 3 分鐘。</p>
+					<h2 class="section-heading">Abstract</h2>
+					<p class="lead">This study developed a real-time one-stage pose reconstruction system that can use a single Logitech webcam or video as input and control the motion of virtual characters in the Blender. It is based on ROMP, a one-stage, multi-branch pose reconstruction regression network. This study extended the single-person ROMP Blender virtual character control system, letting it control 2~3 virtual characters simultaneously. The field of 3D Human Pose and Shape Estimation focuses on improving network architectures and datasets, but it lacks practical application in virtual live streaming. Also, the optical marker-based motion capture systems require high costs and take 10~15 minutes to set up. As a result, this study developed a deep learning-based solution. It will be applied in the interview-style program. The performance achieved in using a webcam is 14~20 frames per second, while in the case of using videos, it is 12~17 frames per second. This study significantly reduces the cost of motion capture systems from 5 million to 1,000 New Taiwan Dollars and decreases the system setup time from 10~15 minutes to 3 minutes.
+                    </p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
 					<br><br><br>
@@ -124,9 +115,8 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">系統概要與生成結果
-                    </h2>
-					<p class="lead">本研究提出的系統，接受給定一段影片或網路攝影機畫面作為輸入，在通過本研究提出的系統後，能夠即時控制在 Blender 場景中的虛擬人物。</p>
+                    <h2 class="section-heading">Method Overview</h2>
+					<p class="lead">The system proposed in this study accepts a given video or webcam as input. After processing through it, it can control virtual characters within the Blender scene.</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
 					<br><br><br>
@@ -149,8 +139,8 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-					<h2 class="section-heading">簡介影片</h2>
-					<p class="lead">本研究之說明影片</p>
+					<h2 class="section-heading">Introduction Video</h2>
+					<p class="lead">Explanation Video of this Research</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
 					<br><br><br>
